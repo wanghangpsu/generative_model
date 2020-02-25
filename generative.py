@@ -146,7 +146,7 @@ if __name__ == '__main__':
             ##########################################################
             #     update the network
             ################################################################
-            if i % 2 == 0:
+            if i % 2 == 1:
 
                 fake_ims.requires_grad = False
                 release_parameters(net)
